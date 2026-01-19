@@ -16,4 +16,4 @@ MonoBehaviour:
   description: Mira el arbol
   ObjectiveCount: 1
   CurrentCount: 0
-  questProgress: 2
+  questProgress: 0
