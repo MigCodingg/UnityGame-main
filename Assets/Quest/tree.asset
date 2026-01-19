@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22366373d3775d2478732d4f34e6b629, type: 3}
-  m_Name: Cegarro
+  m_Name: tree
   m_EditorClassIdentifier: Assembly-CSharp::Quests
-  questName: Cegarro
-  description: Dame cegarro
-  ObjectiveCount: 5
+  questName: Mira el arbol
+  description: Mira el arbol
+  ObjectiveCount: 1
   CurrentCount: 0
-  questProgress: 0
+  questProgress: 2
