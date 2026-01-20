@@ -2437,7 +2437,7 @@ GameObject:
   - component: {fileID: 889122150}
   - component: {fileID: 889122156}
   m_Layer: 0
-  m_Name: enemigo normal
+  m_Name: Capsule
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2731,7 +2731,7 @@ GameObject:
   - component: {fileID: 984134609}
   - component: {fileID: 984134608}
   m_Layer: 0
-  m_Name: enemigo saltarin
+  m_Name: Capsule (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5826,7 +5826,7 @@ GameObject:
   - component: {fileID: 1988501124}
   - component: {fileID: 1988501123}
   m_Layer: 0
-  m_Name: enemigo volador
+  m_Name: Capsule (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
