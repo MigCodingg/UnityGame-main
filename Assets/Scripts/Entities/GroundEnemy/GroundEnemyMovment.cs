@@ -5,8 +5,8 @@ public class EnemyMovement : MonoBehaviour
     private GroundEnemyManager core;
 
     [Header("Salto automático")]
-    public float jumpForce = 7f;       // fuerza del salto
-    public float jumpCooldown = 2f;    // cada cuántos segundos salta
+    public float jumpForce = 7f;       //salto 
+    public float jumpCooldown = 2f;    //cada cuando salta el bicho
     private float jumpTimer;
 
     private void Awake()
@@ -24,7 +24,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Move()
     {
-        // Movimiento horizontal simple
+        // Movimiento horizontal 
         float dir = core.facingRight ? 1f : -1f;
         core.rb.AddForce(Vector2.right * dir * core.speed);
     }
