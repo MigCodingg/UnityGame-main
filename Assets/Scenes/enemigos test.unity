@@ -333,92 +333,6 @@ RectTransform:
   m_AnchoredPosition: {x: 12, y: 80}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &130622629 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-  m_PrefabInstance: {fileID: 958616866}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &130622630 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7936114865293464055, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-  m_PrefabInstance: {fileID: 958616866}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &130622631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130622629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42042d4206b0fe54f9fa36df7717eaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MatarScript
-  MatarQuest: {fileID: 11400000, guid: eb9db6d81cf568a42acf5906d390490a, type: 2}
---- !u!114 &130622637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130622629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a63eece95aa9f8e43bd1e33e21e821bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cannon
-  balaPrefabs:
-  - {fileID: 1797479226245208839, guid: f09ef801752cf6046bed5c3a9536973a, type: 3}
-  puntoDisparo: {fileID: 130622630}
-  cadencia: 1
-  shotLeft: 0
---- !u!61 &130622639
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130622629}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.0130672455, y: 0.63946915}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.81708145, y: 0.29296333}
-  m_EdgeRadius: 0
 --- !u!1 &202559661
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,28 +621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tonto q anda
       objectReference: {fileID: 0}
-    - target: {fileID: 5115859786009068929, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9033670392012776152, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      propertyPath: jumpForce
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9033670392012776152, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      propertyPath: jumpCooldown
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1601849775}
-    - targetCorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1601849774}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
 --- !u!1 &288977774
 GameObject:
@@ -2756,27 +2652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cajita que dispara
       objectReference: {fileID: 0}
-    - target: {fileID: 9033670392012776152, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      propertyPath: jumpForce
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9033670392012776152, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      propertyPath: jumpCooldown
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 130622637}
-    - targetCorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 130622631}
-    - targetCorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 130622639}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
 --- !u!1 &1036344410
 GameObject:
@@ -5086,89 +4965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: saltarin
       objectReference: {fileID: 0}
-    - target: {fileID: 9033670392012776152, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      propertyPath: jumpForce
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9033670392012776152, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      propertyPath: jumpCooldown
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2017270007}
-    - targetCorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2017270014}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
---- !u!1 &1601849765 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-  m_PrefabInstance: {fileID: 279756559}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1601849774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601849765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42042d4206b0fe54f9fa36df7717eaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MatarScript
-  MatarQuest: {fileID: 11400000, guid: eb9db6d81cf568a42acf5906d390490a, type: 2}
---- !u!61 &1601849775
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601849765}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.010643005, y: 0.52570784}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.8352127, y: 0.4367416}
-  m_EdgeRadius: 0
 --- !u!1 &1603334797
 GameObject:
   m_ObjectHideFlags: 0
@@ -6226,70 +6027,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2017270005 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2579146733179907148, guid: 901dd17c68b9f75439b02655f8cbae7f, type: 3}
-  m_PrefabInstance: {fileID: 1598398587}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2017270007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017270005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42042d4206b0fe54f9fa36df7717eaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MatarScript
-  MatarQuest: {fileID: 11400000, guid: eb9db6d81cf568a42acf5906d390490a, type: 2}
---- !u!61 &2017270014
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017270005}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.005880356, y: 0.5528393}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.72945786, y: 0.2942477}
-  m_EdgeRadius: 0
 --- !u!1 &2079480475
 GameObject:
   m_ObjectHideFlags: 0
@@ -6324,8 +6061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -0}
-  m_SizeDelta: {x: 1920, y: 0}
+  m_AnchoredPosition: {x: 793, y: -0}
+  m_SizeDelta: {x: 1586, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2079480477
 MonoBehaviour:
